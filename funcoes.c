@@ -1050,6 +1050,8 @@ int persisteNum()
         contador++;
     }
 
+    fclose(cont_in);
+	
     free(contagem);
 
     return contador;
